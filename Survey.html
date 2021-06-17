@@ -1,0 +1,55 @@
+<div id="main">
+   <h1 id="title">Twitch Streamer Survey</h1>
+   <p id="description">Thank you for taking the time to help us improve the platform</p>
+ </div>
+ <div class="main-content">
+      <div class="form-content">
+   <form id="survey-form">
+   <label for="name" id="name-label">Twitch Name</label>
+   <input type="text" id="name" required placeholder="Enter Twitch Name"/>
+ 
+   <label for="email" id="email-label">Email</label>
+   <input type="email" id="email" required placeholder="Enter Email"/>
+ 
+   <label for="number" id="number-label">Rating</label>
+   <input type="number" id=number min="1" max="10" required placeholder="App Rating"/>
+ 
+   <label for="dropdown">Which Option describes your popularity</label>
+   <select id="dropdown">
+     <option value="Popular">Popular</option>
+     <option value="Known">Somewhat Known</option>
+     <option value="Unknown">Unknown</option>
+   </select>
+        <fieldset>
+          <legend>Would you recommend my channgle to a friend?</legend>
+          <input type="radio" name="action" checked id="definitely" value="definetly" />
+          <label for="maybe">Definitely</label></br>
+          <input type="radio" name="action" id="maybe" value="maybe" />
+          <label for="maybe">Maybe</label></br>
+          <input type="radio" name="action" id="not-sure" value="no" />
+          <label for="maybe">No</label>
+         </fieldset>
+ 
+           <p>What would you like to see improved?</p>
+           <input type="checkbox" id="stream-quality" name="stream-quality" value="stream-quality">
+           <label for="stream-quality">Stream Quality</label><br>
+           <input type="checkbox" id="less-ads" name="less-ads" value="less-ads">
+           <label for="less-ads">Less Ads</label><br>
+           <input type="checkbox" id="ad-length" name="ad-length" value="ad-length">
+           <label for="ad-length">Ad Length</label><br>
+           <br>
+           <label for="comment">Any other comments or suggestions?</label><br>
+           <textarea rows="4" cols="50" id="comment">Enter suggestions here...</textarea>
+           <button type="submit" id="submit">Submit</button>
+ 
+   </form>
+  </div>
+ </div>
+ 
+        
+ 
+     
+ 
+ 
+ 
+ 
